@@ -2,10 +2,11 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from torchvision import datasets, transforms
-from torchsummary import summary
+
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import numpy as np
+
 
 INPUTS_SIZE = 29*29
 img_size = 29
